@@ -1,5 +1,5 @@
 <?php
-define('BOT_TOKEN', '283133408:AAGqsXiSepsYQ7rhtsgajHvNKhlakdFQmas');
+define('BOT_TOKEN', '279146073:AAGvYh8E_Z2WCCPH_wC6UFrTv7y3g4Y-dE4');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -864,3 +864,4 @@ if (isset($update["message"])) {
   processMessage($update["message"]);
 }
 sendMessage,
+Content-Type: application/jsonSettings ⚙
